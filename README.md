@@ -14,8 +14,7 @@
 ## Proje Hakkında
 Bir ayakkabı firması bizden müşterilerini RFM analizi kullanarak segmente etmemizi istiyor. Ve bunun için bana müşterilerine ait ham satın alma geçmişi verilerini veriyor. Ben bu ham verileri kullanarak müşterileri segmente ediyorum. Ama nasıl?
 
-* Öncelikle veriyi inceliyorum örneğin tiplerine bakıyorum Null değer var mı yok mu ona bakıyorum betimsel istatistiklerine bakıyorum v.b"
-
+* Öncelikle veriyi inceliyorum örneğin tiplerine bakıyorum Null değer var mı yok mu ona bakıyorum betimsel istatistiklerine bakıyorum v.b
 ![](https://github.com/HuseyinEfkanAlp/Flo_CRM_Rfm_Analytics/blob/main/images/columns.jpg)
 * Veri hakkında edindiğim bilgilerden sonra veriyi hazırlama kısmına geçiyorum. Boş değer varsa veriden çıkartıyorum, İade olan ürünleri çıkartıyorum, tipi obje olan fakat datetime olması gereken verilerin tipini değiştiriyorum v.b
 ![](https://github.com/HuseyinEfkanAlp/Flo_CRM_Rfm_Analytics/blob/main/images/dataprepearing.jpg)
